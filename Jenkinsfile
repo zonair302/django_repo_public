@@ -1,7 +1,6 @@
 #!groovy
 
-
-[200~node {
+node {
     try {
         stage('Checkout') {
             checkout scm
